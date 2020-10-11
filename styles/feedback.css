@@ -1,0 +1,24 @@
+
+.feedback{
+    padding-top: 100px;
+}
+
+.feedback_text{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback_text_head{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    
+}
+
+.feedback_text_small{
+    line-height: 30px;
+    color: #4F5665;
+}
