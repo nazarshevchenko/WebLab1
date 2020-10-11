@@ -1,0 +1,21 @@
+footer{
+    background-color: #F6F5F5;
+    margin-top: 150px;
+}
+
+.footer_line{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer_images{
+    padding-bottom: 30px;
+}
+
+.footer_text {
+    padding-top: 20px;
+}

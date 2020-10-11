@@ -1,14 +1,17 @@
 
 .feedback{
     padding-top: 100px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .feedback_text{
     width: 400px;
-    height: 100px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .feedback_text_head{
@@ -21,4 +24,73 @@
 .feedback_text_small{
     line-height: 30px;
     color: #4F5665;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blocks {
+    width: 350px;
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+}
+
+.blocks_head{
+    display: flex;
+    justify-content: center;
+}
+
+.blocks_name{
+    padding-left: 20px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.blocks_name_main{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0B132A;
+}
+
+.blocks_name_city{
+    color: #4F5665;
+    font-size: 14px;
+}
+
+
+.blocks_rating {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 17px;
+}
+
+.blocks_rating div {
+    padding: 8px;
+}
+
+.blocks_rating img {
+    padding-bottom: 20px;
+}
+
+.blocks_text{
+    position: absolute;
+    top: 40%;
+    width: 300px;
+    height: 100px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    color: #0B132A;
 }
