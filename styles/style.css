@@ -38,16 +38,50 @@ ul{
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        background-color: #fff;
     }
 
+    .registration{
+        display: none;
+    }
+
+    .hero {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .hero img{
         display: none;
+    }
+
+    .medium {
+        background-color: #fff;
     }
 
     .medium img{
         display: none;
     }
+
+    .medium_feature img{
+        display: inline;
+    }
+
+    .medium_feature li {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     
+    .feedback_text{
+        width: 320px;
+    }
+
+    .blocks{
+        width: 320px;
+        margin-bottom: 30px;
+    }
+
+
     .menu{
         display: none;
     }
