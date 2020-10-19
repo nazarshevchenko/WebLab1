@@ -19,3 +19,7 @@ footer{
 .footer_text {
     padding-top: 20px;
 }
+
+.footer_images_mobile{
+    display: none;
+}
