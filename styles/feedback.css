@@ -1,14 +1,14 @@
 
 .feedback{
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 6.25vw;
+    padding-bottom: 12.5vw;
     margin-left: auto;
     margin-right: auto;
 
 }
 
 .feedback_text{
-    width: 400px;
+    width: 25vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -16,20 +16,20 @@
 
 .feedback_text_head{
     font-weight: 500;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 2.1875vw;
+    line-height: 3.125vw;
     
 }
 
 .feedback_text_small{
-    line-height: 30px;
+    line-height: 1.875vw;
     color: #4F5665;
 }
 
 .reviews {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    
     
     margin-left: auto;
     margin-right: auto;
@@ -37,11 +37,11 @@
 }
 
 .blocks {
-    width: 350px;
-    height: 230px;
-    border: 2px solid #DDDDDD;
+    width: 21.875vw;
+    height: 14.375vw;
+    border: 0.125vw solid #DDDDDD;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 0.625vw;
     position: relative;
 }
 
@@ -50,21 +50,25 @@
     justify-content: center;
 }
 
+.blocks_head img{
+    width: 3.125vw;
+}
+
 .blocks_name{
-    padding-left: 20px;
-    padding-right: 50px;
+    padding-left: 1.25vw;
+    padding-right: 3.125vw;
     text-align: left;
 }
 
 .blocks_name_main{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125vw;
     color: #0B132A;
 }
 
 .blocks_name_city{
     color: #4F5665;
-    font-size: 14px;
+    font-size: 0.875vw;
 }
 
 
@@ -72,25 +76,27 @@
     display: flex;
     justify-content: center;
 
-    padding-top: 17px;
+    padding-top: 1vw;
 }
 
 .blocks_rating div {
-    padding: 8px;
+    padding: 0.5vw;
 }
 
 .blocks_rating img {
-    padding-bottom: 20px;
+    padding-bottom: 1.25vw;
 }
 
 .blocks_text{
     position: absolute;
     top: 40%;
-    width: 300px;
-    height: 100px;
+    width: 18.75vw;
+    height: 6.25vw;
+
+    font-size: 1vw;
     text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 30px;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    line-height: 1.875vw;
     color: #0B132A;
 }

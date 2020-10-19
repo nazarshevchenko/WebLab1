@@ -1,39 +1,45 @@
 .hero {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25vw;
+    padding-bottom: 6.25vw;
     display: flex;
     justify-content: space-between;
 
 }
 
+.hero img{
+    width: 38.25vw;
+}
+
 .hero_text{
-    width: 500px;
-    height: 200px;
+    width: 50%;
 }
 
 .hero_head_text{
     color: #0B132A;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 70px;
+    font-size: 3.125vw;
+    line-height: 4.375vw;
 }
 
 .hero_small_text{
-    padding-top: 20px;
-    padding-bottom: 50px;
-    line-height: 30px;
+    padding-top: 1.25vw;
+    padding-bottom: 3.125vw;
+    line-height: 1.875vw;
     color: #4F5665;
+    font-size: 1vw;
 }
 
 .hero_button {
     background-color: #F53838;
     border: 0;
-    width: 250px;
-    height: 60px;
-    
+    width: 15.625vw;
+    height: 3.75vw;
+
+
+    font-size: 1vw;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 1.5625vw;
     color: #fff;
 
-    border-radius: 10px;
+    border-radius: 0.625vw;
 }

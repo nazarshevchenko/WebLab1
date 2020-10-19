@@ -1,23 +1,32 @@
 footer{
     background-color: #F6F5F5;
-    margin-top: 150px;
+    margin-top: 9.375vw;
 }
 
 .footer_line{
     display: flex;
     justify-content: space-between;
-    height: 75px;
-    padding-top: 200px;
-    padding-left: 150px;
-    padding-right: 150px;
+    height: 4.6875vw;
+    padding-top: 12.5vw;
+    padding-left: 9.375vw;
+    padding-right: 9.375vw;
 }
 
 .footer_images{
-    padding-bottom: 30px;
+    padding-bottom: 1.125vw;
 }
 
+.footer_images img{
+    width: 4.375vw;
+}
+
+.footer_logo{
+    width: 9.375vw;
+}
+
+
 .footer_text {
-    padding-top: 20px;
+    padding-top: 1.25vw;
 }
 
 .footer_images_mobile{

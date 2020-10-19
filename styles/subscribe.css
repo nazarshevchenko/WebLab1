@@ -1,7 +1,8 @@
 .subscribe{
-    width: 1200px;
-    height: 250px;
-    margin-top: 300px;
+    width: 90%;
+    max-width: 75vw;
+    height: 15.625vw;
+    margin-top: 18.75vw;
     left:50%;
     transform:translate(-50%, -50%);
     background-color: #fff;
@@ -12,31 +13,31 @@
 }
 
 .subscribe button {
-    width: 250px;
-    height: 60px;
-    margin-top: 86px;
-    margin-right: 70px;
+    width: 15.625vw;
+    height: 3.75vw;
+    margin-top: 5.375vw;
+    margin-right: 4.375vw;
     background-color: #F53838;
-    border-radius: 10px;
+    border-radius: 0.625vw;
     border-color: #F53838;
     color: #fff;
 }
 
 .subscribe nav{
-    margin-top: 60px;
-    margin-left: 70px;
-    width: 370px;
+    margin-top: 3.75vw;
+    margin-left: 4.375vw;
+    width: 23.125vw;
 }
 
 .subscribe_head {
     font-weight: 500;
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 2.1875vw;
+    line-height: 2.8125vw;
     color: #0B132A;
     
 }
 .subscribe_small{
-    line-height: 30px;
+    line-height: 1.875vw;
     color:#4F5665;
     
 }
